@@ -1,12 +1,12 @@
-measurement = "3'6"
+measurements = "3'6"
 
-def convertToInches(measurement):
-    feet = measurement.split("'")[0]
-    secondHalf = measurement.split("'")[1]
+def convertToInches(measurements):
+    feet = measurements.split("'")[0]
+    secondHalf = measurements.split("'")[1]
     inches = int(feet) * 12
     inches = inches + int(secondHalf)
     print(inches)
 
     pass
 
-convertToInches(measurement)
+convertToInches(measurements)
